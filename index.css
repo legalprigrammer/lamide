@@ -33,6 +33,11 @@
   src: url(./fonts/ViaodaLibre-Regular.ttf);
 }
 
+html {
+  scroll-snap-align: 100%;
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: white;
   color: black;
@@ -45,6 +50,7 @@ body {
 
 body header {
   margin-top: 40px;
+  z-index: 999;
 }
 
 body header h2 {
@@ -349,7 +355,8 @@ body .copyright {
   }
   body #mobile {
     display: block;
-    margin-top: 50px;
+    margin-top: 25px;
+    z-index: 999;
     width: 100%;
     text-align: center;
     -ms-flex-item-align: center;
@@ -362,6 +369,7 @@ body .copyright {
   }
   body #mobile small {
     margin-left: 80px;
+    z-index: 999;
   }
   body #mobile small a {
     font-size: 17px;
@@ -369,6 +377,7 @@ body .copyright {
     color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    z-index: 999;
   }
   body #mobile small a:hover {
     color: #38433b;
@@ -453,6 +462,7 @@ body .copyright {
     border-top: 1px solid white;
     margin-top: 20px;
     width: 90%;
+    margin-left: 5px;
   }
   body #capabilities .services h1 {
     font-size: 50px;
@@ -509,7 +519,7 @@ body .copyright {
     font-weight: 500;
     font-family: monospace;
     letter-spacing: 1.5px;
-    font-size: 19px;
+    font-size: 15px;
   }
   body .works .thumbs a::after {
     display: block;
@@ -578,8 +588,8 @@ body .copyright {
   }
   body #mobile {
     display: block;
-    margin-top: 30px;
-    margin-left: -12px;
+    margin-top: 35px;
+    margin-left: -15px;
   }
   body #mobile #none {
     display: none;
@@ -606,7 +616,7 @@ body .copyright {
   }
   body #mobile {
     display: block;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 0px;
   }
   body #mobile #none {
@@ -743,7 +753,7 @@ body .copyright {
   }
   body #mobile {
     display: block;
-    margin-top: 50px;
+    margin-top: 25px;
   }
   body #mobile #none {
     display: none;

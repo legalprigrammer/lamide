@@ -5,14 +5,11 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(
-  `header,.top,
-           .experience__data, header,
-           .thunb,.mob,#picture,
-           #intro-work,#front,
-           .intros, .info,.img-fluid,#wordings`,
+  `.top,
+           `,
   {
     origin: 'top',
-    interval: 250,
+    interval: 50,
   }
 );
 sr.reveal(
@@ -20,7 +17,7 @@ sr.reveal(
      .section-title,.bottom`,
   {
     origin: 'bottom',
-    interval: 50,
+    interval: 150,
   }
 );
 sr.reveal(
