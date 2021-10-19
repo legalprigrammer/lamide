@@ -1,3 +1,12 @@
+
+let loader = document.querySelector('.loader');
+
+window.addEventListener('load', vanish);
+
+function vanish() {
+  loader.classList.add('disappear');
+}
+
 const sr = ScrollReveal({
   distance: '80px',
   duration: 1500,
@@ -9,7 +18,7 @@ sr.reveal(
            `,
   {
     origin: 'top',
-    interval: 50,
+    interval: 150,
   }
 );
 sr.reveal(
@@ -31,7 +40,7 @@ sr.reveal(
 
 sr.reveal(
   ` 
-           .right,strong,.select`,
+           .right,.select`,
   {
     origin: 'right',
     interval: 150,
